@@ -16,7 +16,7 @@ export default defineConfig({
         ...devices['Desktop Chrome'],
         channel: 'chromium',
         executablePath: 'C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe',
-        viewport: null,
+        //viewport: null,
         launchOptions: {
           args: ['--start-maximized']
         },
