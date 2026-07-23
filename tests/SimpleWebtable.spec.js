@@ -5,4 +5,6 @@ test("Handling simple webtable",async({page})=>{
     const tableHeader = table.locator('thead');
     const numOfCols = tableHeader.locator('tr th');
     console.log(await numOfCols.count());
+    const numofRows = table.locator("tbody tr")
+    console.log(await numofRows.count())
 })
